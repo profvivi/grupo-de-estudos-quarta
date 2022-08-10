@@ -1,23 +1,32 @@
-body{
-    background-color: bisque;
-    text-align: justify;
+header {
+    background-color:lightsalmon;
+    padding: 1px 0; 
 }
-h1{
-    color: red;
+marquee {
+    background-color: burlywood;
 }
-
-p {
-    text-align:center;
+.caixa {
+    position: relative;
+    width: 1300px;
+    margin: 0 auto;
 }
-
 img {
     height: 200px;
     width: 300px;
 }
+body{
+    background-color: bisque;
+    text-align: justify;
+}
 
-li {
-    font-size: larger;
-    color: brown;
-    
-      
+p {
+    text-align:center; 
+    font-size: 20px;
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
 }
