@@ -1,6 +1,6 @@
 header {
     background-color:lightsalmon;
-    padding: 1px 0; 
+    padding: 1/5px 0; 
 }
 marquee {
     background-color: burlywood;
@@ -13,7 +13,6 @@ marquee {
 img {
     height: 200px;
     width: 300px;
-    padding: 10px;
 }
 body{
     background-color: bisque;
@@ -23,7 +22,20 @@ body{
 p {
     text-align:center; 
     font-size: 20px;
-
+    padding: 10px;
+    
+}
+/*para deixar na horizontal
+nav li {
+    display: inline-block;
+    margin: 0 0 0 15px;
+}*/
+/* para alinhar no cabeçalho
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}*/
 nav a {
     text-transform: uppercase;
     color: #000000;
